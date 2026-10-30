@@ -3,12 +3,14 @@ import numpy as np
 import os
 from sklearn.preprocessing import LabelEncoder
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 # ======================
 # 1. Load Processed Data
 # ======================
-train_df = pd.read_csv("../data/processed/train_data.csv")
-test_df = pd.read_csv("../data/processed/test_data.csv")
+train_df = pd.read_csv(f"{ROOT}/data/processed/train_data.csv")
+test_df = pd.read_csv(f"{ROOT}/data/processed/test_data.csv")
 
 
 # ======================
@@ -149,8 +151,8 @@ groups = np.array(groups)
 # ======================
 # 4. Save Outputs
 # ======================
-os.makedirs("../outputs", exist_ok=True)
+os.makedirs(f"{ROOT}/outputs", exist_ok=True)
 
-np.save("../outputs/X_train.npy", X)
-np.save("../outputs/y_train.npy", y)
-np.save("../outputs/groups_train.npy", groups)
+np.save(f"{ROOT}/outputs/X_train.npy", X)
+np.save(f"{ROOT}/outputs/y_train.npy", y)
+np.save(f"{ROOT}/outputs/groups_train.npy", groups)

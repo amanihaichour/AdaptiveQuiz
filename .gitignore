@@ -1,9 +1,17 @@
-__pycache__/
+# Environments
 .venv/
+venv/
+venv_local/
+
+# Python / tooling
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
 .vscode/
 .DS_Store
-.pytest_cache/
-*.ipynb_checkpoints
-outputs/
-data/
-models/
+
+# Generated artifacts (reproducible from the scripts)
+outputs/*.npy
+outputs/*.csv
+outputs/*.png
+data/processed/full_question_bank.json

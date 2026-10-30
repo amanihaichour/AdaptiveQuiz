@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
+import os
 
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
@@ -11,12 +12,14 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GroupKFold, cross_val_score
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # ======================
 # 1. Load Features
 # ======================
-X = np.load("../outputs/X_train.npy")
-y = np.load("../outputs/y_train.npy")
-groups = np.load("../outputs/groups_train.npy")
+X = np.load(f"{ROOT}/outputs/X_train.npy")
+y = np.load(f"{ROOT}/outputs/y_train.npy")
+groups = np.load(f"{ROOT}/outputs/groups_train.npy")
 
 # ======================
 # 2. Cross-Validation & Model Selection
@@ -35,7 +38,7 @@ for name, model in models.items():
     print(f"{name} CV Accuracy: {scores.mean():.4f}")
     cv_results[name] = scores.mean()
     model.fit(X, y)
-    joblib.dump(model, f"../models/{name}_model.pkl")
+    joblib.dump(model, f"{ROOT}/models/{name}_model.pkl")
 
 # ======================
 # 3. Train Committee Models
@@ -58,7 +61,7 @@ for i in range(5):
         model = RandomForestClassifier(n_estimators=100, max_depth=12, random_state=42)
 
     model.fit(X[idx], y[idx])
-    joblib.dump(model, f"../models/committee_model_{i}.pkl")
+    joblib.dump(model, f"{ROOT}/models/committee_model_{i}.pkl")
 
 # ======================
 # 4. Learning Curve
@@ -85,7 +88,7 @@ plt.xlabel("Training Size (%)")
 plt.ylabel("Accuracy")
 plt.title("Learning Curve")
 plt.grid()
-plt.savefig("../outputs/figures/learning_curve.png")
+plt.savefig(f"{ROOT}/outputs/figures/learning_curve.png")
 plt.show()
 
 # ======================
