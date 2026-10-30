@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive Math Pro | ML Powered Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="app">
+    <!-- Header -->
+    <header>
+        <div class="title-logo">ADAPTIVE.MATH</div>
+        <button id="start-btn" class="btn-primary">START CHALLENGE</button>
+    </header>
+
+    <!-- Main Question Area -->
+    <main id="main-content">
+        <!-- Setup Screen -->
+        <div id="setup-screen" class="card">
+            <h2 class="question-text">Configure your Adaptive Session</h2>
+            <p style="color: var(--text-dim); margin-bottom: 2rem;">Select topics to focus on. Our 96-feature ML engine will dynamically adjust to your accuracy and speed.</p>
+            <div id="topic-selector" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+                <!-- Topics will be injected here -->
+            </div>
+            <div style="display: flex; justify-content: flex-end;">
+                <button id="begin-quiz" class="btn-primary hidden">BEGIN ENGINE SESSION</button>
+            </div>
+        </div>
+
+        <!-- Question View -->
+        <div id="quiz-container" class="hidden">
+            <div id="question-card" class="card">
+                <div class="question-meta">
+                    <span id="topic-display">Topic</span>
+                    <span class="difficulty-pill">DIFF: <strong id="diff-display">0.00</strong></span>
+                </div>
+                <h3 id="question-text" class="question-text">Question content will appear here...</h3>
+                <div id="options-grid" class="options-grid">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Results View -->
+        <div id="results-screen" class="card hidden">
+            <h2 class="question-text" style="color: var(--success);">Session Complete!</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-dim);">The engine has finished mapping your knowledge state. View your mastery profile in the sidebar.</p>
+            <button onclick="window.location.reload()" class="btn-primary">RESTART SESSION</button>
+        </div>
+    </main>
+
+    <!-- Dashboard Sidebar -->
+    <aside class="sidebar">
+        <!-- Confidence Card -->
+        <div class="stats-card">
+            <h3>ENGINE CONFIDENCE</h3>
+            <div class="confidence-bg">
+                <div id="conf-fill" class="confidence-fill"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+                <span id="conf-text">Starting...</span>
+                <span>Target: 80%</span>
+            </div>
+        </div>
+
+        <!-- Mastery Card -->
+        <div class="stats-card">
+            <h3>SESSION MASTERY</h3>
+            <div id="mastery-list">
+                <!-- Mastery levels per topic injected here -->
+            </div>
+        </div>
+
+        <!-- Engine Logic Trace -->
+        <div class="stats-card" style="font-size: 0.8rem; height: 300px; overflow-y: auto;">
+            <h3 style="font-size: 0.9rem;">ADAPTIVE REASONING</h3>
+            <div id="reasoning-trace" style="color: var(--text-dim); line-height: 1.6; font-family: monospace;">
+                Initializing backend...
+            </div>
+        </div>
+    </aside>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

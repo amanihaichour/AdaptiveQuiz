@@ -1,0 +1,702 @@
+[
+  {
+    "id": "q1",
+    "topic": "algebra",
+    "difficulty": 0.1,
+    "text": "Solve for x: x + 2 = 5",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 3."
+  },
+  {
+    "id": "q2",
+    "topic": "algebra",
+    "difficulty": 0.2,
+    "text": "Solve for x: 3x = 12",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "D": "5"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is 4."
+  },
+  {
+    "id": "q3",
+    "topic": "algebra",
+    "difficulty": 0.3,
+    "text": "Solve for x: 2x - 5 = 9",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "7",
+      "D": "6"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 7."
+  },
+  {
+    "id": "q4",
+    "topic": "algebra",
+    "difficulty": 0.4,
+    "text": "Expand: (x + 3)(x - 2)",
+    "options": {
+      "A": "x^2+x-6",
+      "B": "x^2+5x-6",
+      "C": "x^2-6",
+      "D": "x^2-x-6"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is x^2+x-6."
+  },
+  {
+    "id": "q5",
+    "topic": "algebra",
+    "difficulty": 0.5,
+    "text": "Solve the system: x+y=10, x-y=2",
+    "options": {
+      "A": "x=4,y=6",
+      "B": "x=6,y=4",
+      "C": "x=8,y=2",
+      "D": "x=5,y=5"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is x=6,y=4."
+  },
+  {
+    "id": "q6",
+    "topic": "algebra",
+    "difficulty": 0.6,
+    "text": "Factor completely: x^2 - 8x + 15",
+    "options": {
+      "A": "(x+3)(x-5)",
+      "B": "(x-3)(x-5)",
+      "C": "(x+3)(x+5)",
+      "D": "(x-3)(x+5)"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is (x-3)(x-5)."
+  },
+  {
+    "id": "q7",
+    "topic": "algebra",
+    "difficulty": 0.7,
+    "text": "Solve for x: log2(x) + log2(x-3) = 2",
+    "options": {
+      "A": "x=1,4",
+      "B": "x=2",
+      "C": "x=4,-1",
+      "D": "x=4"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is x=4."
+  },
+  {
+    "id": "q8",
+    "topic": "algebra",
+    "difficulty": 0.8,
+    "text": "Find the roots of: x^3 - 6x^2 + 11x - 6 = 0",
+    "options": {
+      "A": "1,-2,3",
+      "B": "-1,2,-3",
+      "C": "-1,-2,-3",
+      "D": "1,2,3"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 1,2,3."
+  },
+  {
+    "id": "q9",
+    "topic": "algebra",
+    "difficulty": 0.9,
+    "text": "Solve the matrix equation det([[x, 2], [3, x-1]]) = 0",
+    "options": {
+      "A": "-3, -2",
+      "B": "3, 2",
+      "C": "3, -2",
+      "D": "-3, 2"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 3, -2."
+  },
+  {
+    "id": "q10",
+    "topic": "algebra",
+    "difficulty": 0.95,
+    "text": "Find the eigenvalues of [[2, 1], [1, 2]]",
+    "options": {
+      "A": "1, 2",
+      "B": "0, 4",
+      "C": "1, 3",
+      "D": "2, 2"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 1, 3."
+  },
+  {
+    "id": "q11",
+    "topic": "calculus",
+    "difficulty": 0.1,
+    "text": "Find the derivative of f(x) = 5x",
+    "options": {
+      "A": "0",
+      "B": "x",
+      "C": "5x",
+      "D": "5"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 5."
+  },
+  {
+    "id": "q12",
+    "topic": "calculus",
+    "difficulty": 0.2,
+    "text": "Find the derivative of f(x) = x^2",
+    "options": {
+      "A": "x^2",
+      "B": "x",
+      "C": "2",
+      "D": "2x"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 2x."
+  },
+  {
+    "id": "q13",
+    "topic": "calculus",
+    "difficulty": 0.3,
+    "text": "Evaluate the integral of 2x dx",
+    "options": {
+      "A": "x^2",
+      "B": "2x^2 + C",
+      "C": "2 + C",
+      "D": "x^2 + C"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is x^2 + C."
+  },
+  {
+    "id": "q14",
+    "topic": "calculus",
+    "difficulty": 0.4,
+    "text": "Find the derivative of sin(x)",
+    "options": {
+      "A": "-cos(x)",
+      "B": "-sin(x)",
+      "C": "sec(x)",
+      "D": "cos(x)"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is cos(x)."
+  },
+  {
+    "id": "q15",
+    "topic": "calculus",
+    "difficulty": 0.5,
+    "text": "Evaluate the limit as x -> 0 of sin(x)/x",
+    "options": {
+      "A": "undefined",
+      "B": "infinity",
+      "C": "1",
+      "D": "0"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 1."
+  },
+  {
+    "id": "q16",
+    "topic": "calculus",
+    "difficulty": 0.6,
+    "text": "Find the derivative of e^(2x)",
+    "options": {
+      "A": "e^(2x)",
+      "B": "2e^(2x)",
+      "C": "e^x",
+      "D": "2xe^(2x)"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is 2e^(2x)."
+  },
+  {
+    "id": "q17",
+    "topic": "calculus",
+    "difficulty": 0.7,
+    "text": "Evaluate the definite integral of x^2 from 0 to 3",
+    "options": {
+      "A": "3",
+      "B": "27",
+      "C": "9",
+      "D": "6"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 9."
+  },
+  {
+    "id": "q18",
+    "topic": "calculus",
+    "difficulty": 0.8,
+    "text": "Find the derivative of x * ln(x)",
+    "options": {
+      "A": "ln(x)",
+      "B": "ln(x) + 1",
+      "C": "x/ln(x)",
+      "D": "1/x"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is ln(x) + 1."
+  },
+  {
+    "id": "q19",
+    "topic": "calculus",
+    "difficulty": 0.9,
+    "text": "Evaluate the integral of e^x * sin(x) dx",
+    "options": {
+      "A": "(e^x(sin x + cos x))/2 + C",
+      "B": "e^x sin x + C",
+      "C": "-e^x cos x + C",
+      "D": "(e^x(sin x - cos x))/2 + C"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is (e^x(sin x - cos x))/2 + C."
+  },
+  {
+    "id": "q20",
+    "topic": "calculus",
+    "difficulty": 0.95,
+    "text": "Find the Maclaurin series expansion of e^x up to x^3",
+    "options": {
+      "A": "1 - x + x^2/2 - x^3/6",
+      "B": "1 + x + x^2/2 + x^3/6",
+      "C": "1 + x + x^2 + x^3",
+      "D": "x + x^2/2 + x^3/3"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is 1 + x + x^2/2 + x^3/6."
+  },
+  {
+    "id": "q21",
+    "topic": "probability",
+    "difficulty": 0.1,
+    "text": "Probability of flipping heads on a fair coin",
+    "options": {
+      "A": "1.0",
+      "B": "0.0",
+      "C": "0.5",
+      "D": "0.25"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 0.5."
+  },
+  {
+    "id": "q22",
+    "topic": "probability",
+    "difficulty": 0.2,
+    "text": "Probability of rolling a 4 on a standard 6-sided die",
+    "options": {
+      "A": "1/3",
+      "B": "1/4",
+      "C": "1/6",
+      "D": "1/2"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 1/6."
+  },
+  {
+    "id": "q23",
+    "topic": "probability",
+    "difficulty": 0.3,
+    "text": "Probability of drawing a spade from a standard 52-card deck",
+    "options": {
+      "A": "1/2",
+      "B": "1/52",
+      "C": "1/13",
+      "D": "1/4"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 1/4."
+  },
+  {
+    "id": "q24",
+    "topic": "probability",
+    "difficulty": 0.4,
+    "text": "If P(A)=0.4 and P(B)=0.3 (independent), find P(A and B)",
+    "options": {
+      "A": "0.0",
+      "B": "0.1",
+      "C": "0.12",
+      "D": "0.7"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 0.12."
+  },
+  {
+    "id": "q25",
+    "topic": "probability",
+    "difficulty": 0.5,
+    "text": "Expected value of a fair 6-sided die roll",
+    "options": {
+      "A": "3",
+      "B": "3.16",
+      "C": "3.5",
+      "D": "4"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 3.5."
+  },
+  {
+    "id": "q26",
+    "topic": "probability",
+    "difficulty": 0.6,
+    "text": "How many ways can you arrange 4 different books on a shelf?",
+    "options": {
+      "A": "24",
+      "B": "12",
+      "C": "4",
+      "D": "16"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is 24."
+  },
+  {
+    "id": "q27",
+    "topic": "probability",
+    "difficulty": 0.7,
+    "text": "What is '5 choose 2' (Combinations)?",
+    "options": {
+      "A": "10",
+      "B": "5",
+      "C": "120",
+      "D": "20"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is 10."
+  },
+  {
+    "id": "q28",
+    "topic": "probability",
+    "difficulty": 0.8,
+    "text": "Probability of getting exactly 2 heads in 3 coin flips",
+    "options": {
+      "A": "1/8",
+      "B": "1/2",
+      "C": "1/4",
+      "D": "3/8"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 3/8."
+  },
+  {
+    "id": "q29",
+    "topic": "probability",
+    "difficulty": 0.9,
+    "text": "Bayes Theorem: If P(D)=0.01, P(Pos|D)=0.9, P(Pos|~D)=0.1, find P(D|Pos)",
+    "options": {
+      "A": "0.01",
+      "B": "0.5",
+      "C": "0.9",
+      "D": "0.083"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 0.083."
+  },
+  {
+    "id": "q30",
+    "topic": "probability",
+    "difficulty": 0.95,
+    "text": "What is the variance of a Binomial distribution with n=10, p=0.4?",
+    "options": {
+      "A": "2.0",
+      "B": "4.0",
+      "C": "6.0",
+      "D": "2.4"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 2.4."
+  },
+  {
+    "id": "q31",
+    "topic": "statistics",
+    "difficulty": 0.1,
+    "text": "Find the mean of 2, 4, 6",
+    "options": {
+      "A": "3",
+      "B": "12",
+      "C": "6",
+      "D": "4"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 4."
+  },
+  {
+    "id": "q32",
+    "topic": "statistics",
+    "difficulty": 0.2,
+    "text": "Find the median of 1, 9, 3, 5, 7",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "5"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 5."
+  },
+  {
+    "id": "q33",
+    "topic": "statistics",
+    "difficulty": 0.3,
+    "text": "Find the mode of 2, 3, 3, 4, 5",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "4",
+      "D": "3"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 3."
+  },
+  {
+    "id": "q34",
+    "topic": "statistics",
+    "difficulty": 0.4,
+    "text": "If variance is 25, what is the standard deviation?",
+    "options": {
+      "A": "12.5",
+      "B": "625",
+      "C": "2.5",
+      "D": "5"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 5."
+  },
+  {
+    "id": "q35",
+    "topic": "statistics",
+    "difficulty": 0.5,
+    "text": "In a normal distribution, what % of data falls within 1 standard dev?",
+    "options": {
+      "A": "95%",
+      "B": "99%",
+      "C": "50%",
+      "D": "68%"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 68%."
+  },
+  {
+    "id": "q36",
+    "topic": "statistics",
+    "difficulty": 0.6,
+    "text": "What is a Type I error?",
+    "options": {
+      "A": "True Positive",
+      "B": "False Positive",
+      "C": "False Negative",
+      "D": "True Negative"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is False Positive."
+  },
+  {
+    "id": "q37",
+    "topic": "statistics",
+    "difficulty": 0.7,
+    "text": "Calculate the Z-score for X=85 if mean=70 and std=5",
+    "options": {
+      "A": "2.0",
+      "B": "15",
+      "C": "3.0",
+      "D": "1.5"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 3.0."
+  },
+  {
+    "id": "q38",
+    "topic": "statistics",
+    "difficulty": 0.8,
+    "text": "What does a p-value of 0.01 indicate (alpha=0.05)?",
+    "options": {
+      "A": "Fail to reject Null",
+      "B": "Accept Null Hypothesis",
+      "C": "Inconclusive",
+      "D": "Reject Null Hypothesis"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is Reject Null Hypothesis."
+  },
+  {
+    "id": "q39",
+    "topic": "statistics",
+    "difficulty": 0.9,
+    "text": "What is the standard error of the mean for std=10, n=25?",
+    "options": {
+      "A": "10.0",
+      "B": "2.0",
+      "C": "0.4",
+      "D": "2.5"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is 2.0."
+  },
+  {
+    "id": "q40",
+    "topic": "statistics",
+    "difficulty": 0.95,
+    "text": "Which test compares the means of three or more independent groups?",
+    "options": {
+      "A": "Chi-Square",
+      "B": "Pearson",
+      "C": "T-test",
+      "D": "ANOVA"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is ANOVA."
+  },
+  {
+    "id": "q41",
+    "topic": "geometry",
+    "difficulty": 0.1,
+    "text": "Area of a rectangle with length 5 and width 4",
+    "options": {
+      "A": "20",
+      "B": "18",
+      "C": "9",
+      "D": "40"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is 20."
+  },
+  {
+    "id": "q42",
+    "topic": "geometry",
+    "difficulty": 0.2,
+    "text": "Perimeter of a square with side length 3",
+    "options": {
+      "A": "15",
+      "B": "6",
+      "C": "12",
+      "D": "9"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 12."
+  },
+  {
+    "id": "q43",
+    "topic": "geometry",
+    "difficulty": 0.3,
+    "text": "Sum of interior angles of a triangle",
+    "options": {
+      "A": "360",
+      "B": "270",
+      "C": "90",
+      "D": "180"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is 180."
+  },
+  {
+    "id": "q44",
+    "topic": "geometry",
+    "difficulty": 0.4,
+    "text": "Area of a circle with radius 3",
+    "options": {
+      "A": "9pi",
+      "B": "12pi",
+      "C": "3pi",
+      "D": "6pi"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is 9pi."
+  },
+  {
+    "id": "q45",
+    "topic": "geometry",
+    "difficulty": 0.5,
+    "text": "Hypotenuse of a right triangle with legs 3 and 4",
+    "options": {
+      "A": "7",
+      "B": "5",
+      "C": "25",
+      "D": "6"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is 5."
+  },
+  {
+    "id": "q46",
+    "topic": "geometry",
+    "difficulty": 0.6,
+    "text": "Volume of a cube with side length 2",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "12",
+      "D": "6"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is 8."
+  },
+  {
+    "id": "q47",
+    "topic": "geometry",
+    "difficulty": 0.7,
+    "text": "Circumference of a circle with diameter 10",
+    "options": {
+      "A": "100pi",
+      "B": "25pi",
+      "C": "10pi",
+      "D": "5pi"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 10pi."
+  },
+  {
+    "id": "q48",
+    "topic": "geometry",
+    "difficulty": 0.8,
+    "text": "Sum of interior angles of a hexagon",
+    "options": {
+      "A": "720",
+      "B": "900",
+      "C": "360",
+      "D": "540"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is 720."
+  },
+  {
+    "id": "q49",
+    "topic": "geometry",
+    "difficulty": 0.9,
+    "text": "Distance between points (1,2) and (4,6)",
+    "options": {
+      "A": "25",
+      "B": "3",
+      "C": "5",
+      "D": "4"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is 5."
+  },
+  {
+    "id": "q50",
+    "topic": "geometry",
+    "difficulty": 0.95,
+    "text": "Equation of a circle centered at (0,0) with radius 4",
+    "options": {
+      "A": "x^2 + y^2 = 4",
+      "B": "x + y = 16",
+      "C": "x^2 + y^2 = 8",
+      "D": "x^2 + y^2 = 16"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is x^2 + y^2 = 16."
+  }
+]
